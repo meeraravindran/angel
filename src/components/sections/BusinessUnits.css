@@ -1,0 +1,35 @@
+.b-units{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 140px;
+}
+
+.b-unit{
+    height: 235px;
+    width: 340px;
+}
+
+.b-unit img{
+    height: 65px;
+    width: 65px;
+}
+
+.b-unit .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+
+.b-unit h4{
+    font-size: 24px;
+    line-height: 1.25;
+    margin-top: 18px;
+    margin-bottom: 17px;
+}
+
+.b-unit p{
+    margin: 0px 0px 24px 0px;
+    text-align: left;
+}
+

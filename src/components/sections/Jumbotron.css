@@ -1,0 +1,33 @@
+.jumbotron{
+    margin: 0px 100px;
+    padding: 80px 0px;
+}
+
+.j-image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.j-image img{
+    height: 27px;
+    width: 150px;
+}
+
+.jumbotron h1{
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 1.05;
+    vertical-align: baseline;
+    text-align: center;
+    font-family: Founders Grotesk,sans-serif;
+    margin: 0px 30px 24px 30px;
+    letter-spacing: -2px;
+}
+
+.jumbotron p{
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0 90px;
+}

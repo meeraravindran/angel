@@ -1,3 +1,69 @@
-html,body{
+html,
+body {
   margin: 0;
+  font-family: helvetica neue, arial, helvetica, freesans, liberation sans,
+    numbus sans l, sans-serif;
+}
+
+.main {
+  margin: 0px 105px;
+}
+
+button{
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  font-family: Founders Grotesk,sans-serif;
+  margin-top: 14px;
+}
+
+.twocolumns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.twocl-right{
+  height: 540px;
+  width: 510px;
+}
+
+.twocl-left h6{
+  font-family: Founders Grotesk,sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 700;
+  margin: 0px 0px 4px;
+}
+
+.twocl-left h2{
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 1.05;
+  vertical-align: baseline;
+  font-family: Founders Grotesk,sans-serif;
+  margin: 0px 0px 40px;
+  letter-spacing: -2px;
+}
+
+.twocl-left .desc{
+  margin: 0px 0px 40px;
+  line-height: 1.5;
+  font-family: Founders Grotesk,sans-serif;
+  font-size: 24px;
+}
+
+.anchor{
+  text-decoration: none;
+  margin: auto 0px auto 24px;
+  color: #0a6cff;
+}
+
+.anchor:hover{
+  text-decoration: underline;
 }

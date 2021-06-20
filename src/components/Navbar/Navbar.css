@@ -1,13 +1,15 @@
 .navbar{
-    height: 50px;
-    padding: 10px;
+    height: 56px;
     display: flex;
     justify-content: center;
+    background: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.08);
+    box-shadow: 0 1px 5px rgb(0 0 0 / 1%);
 }
 
 .navbar-content{
     display: flex;
-    width: 700px;
+    width: 900px;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -33,7 +35,8 @@
 }
 
 .nav-links-con >  div{
-    margin: 5px;
+    padding: 0px 13px;
+    /* margin: 5px; */
     display: flex;
     flex-direction: column;
     justify-content: center ;
@@ -44,4 +47,23 @@
     width: 28px;
     height: 28px;
     cursor: pointer;
+}
+
+.search-input{
+    width: 100px;
+    border: none;
+}
+
+.link{
+    color: #3078CA;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+.nav-right{
+    border-left: 1px solid rgba(0,0,0,.08);
+    padding-left: 10px;
 }
