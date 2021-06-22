@@ -1,0 +1,62 @@
+.footer {
+    padding: 40px 105px;
+    background: #000;
+}
+
+.footer-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-column, .footer-column-last {
+    display: flex;
+    flex-direction: column;
+    min-width: 192px;
+    margin-bottom: 60px;
+    padding-right: 30px;
+}
+
+.footer-column a {
+    padding: 0px 0px 8px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    width: 192px;
+}
+
+.footer-column-last a {
+    padding: 0px 0px 8px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+.footer-col-heading {
+    color: #fff;
+}
+
+.foot-note a {
+    color: #fff;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.footer-column a:hover, .footer-column-last a:hover, h3.footer-col-heading:hover, .foot-note a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.foot-note {
+    display: flex;
+    flex-direction: row;
+}
+
+.footnote-logo img{
+    width: 25px;
+    height: 36px;
+    margin: 0px 24px 0px 0px;
+}
+
+.footnote-text{
+    margin: 11px 16px 11px 0px;
+}

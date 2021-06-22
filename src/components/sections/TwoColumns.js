@@ -4,15 +4,14 @@ const TwoColumns = (props) => {
   return (
     <div className="twocolumns_para">
       <div className="col">
-        <h4>Talk directly to founders</h4>
+        <h4>{props.h1}</h4>
         <p>
-          Speak directly to founders and hiring managers. No third party
-          recruiters allowed.
+          {props.c1}
         </p>
       </div>
       <div className="col">
-          <h4>See salary & equity upfront</h4>
-          <p>View salary and stock option details before you apply to a job.</p>
+          <h4>{props.h2}</h4>
+          <p>{props.c2}</p>
       </div>
     </div>
   );

@@ -67,3 +67,12 @@ button{
 .anchor:hover{
   text-decoration: underline;
 }
+
+.test{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-col-heading :hover{
+  cursor: pointer;
+}
