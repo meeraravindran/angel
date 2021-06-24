@@ -21,6 +21,10 @@ button{
   margin-top: 14px;
 }
 
+button:hover {
+  filter: brightness(85%);
+}
+
 .twocolumns {
   display: flex;
   flex-direction: row;
