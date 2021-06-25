@@ -16,7 +16,18 @@ const Navbar = () => {
             <div className="nav-item">RECRUIT</div>
             <div className="nav-item">INVEST</div>
             <div className="nav-item">BLOG</div>
-            <div className="nav-item">MORE</div>
+            <div className="nav-item hoverable">
+              MORE
+              <div className="nav-hover-con">
+                <div className="nav-hover-item">Venture Funds</div>
+                <div className="nav-hover-div"></div>
+                <div className="nav-hover-item">Track</div>
+                <div className="nav-hover-div"></div>
+                <div className="nav-hover-item">Salaries</div>
+                <div className="nav-hover-div"></div>
+                <div className="nav-hover-item">Help</div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="nvbc-item-con nav-right">

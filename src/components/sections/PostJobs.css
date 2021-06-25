@@ -1,58 +1,71 @@
-.post-jobs{
-    margin-bottom: 140px;
-    padding: 70px 105px 140px 105px;
-    background: #000;
-    color: #fff;
+.post-jobs {
+  margin-bottom: 140px;
+  padding: 70px 105px 140px 105px;
+  background: #000;
+  color: #fff;
+  position: relative;
 }
 
-.pj-heading{
-    text-align: center;
+.pj-heading {
+  text-align: center;
 }
 
-.pj-heading h1{
-    margin: 0px;
-    font-size: 270px;
+.pj-heading h1 {
+  margin: 0px;
+  font-size: 270px;
 }
 
-.pj-heading span{
+.pj-heading span {
+  position: absolute;
+}
+
+.pj-heading p {
+  margin-bottom: 95px;
+  font-size: 30px;
+}
+
+.pj-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.pj-desc-p {
+  margin: 0px 0px 40px 0px;
+  font-size: 24px;
+}
+
+.pj-companies {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.pj-companies a {
+  text-align: center;
+  margin: 0px 12px 45px;
+  font-size: 12px;
+}
+
+.pj-companies img {
+  width: 70px;
+  height: 70px;
+  margin: 0px 8px;
+}
+
+.pj-companies p {
+  margin: 0px;
+}
+
+.pj-img {
+  width: 150px;
+  height: 130px;
+  /* position: relative; */
+}
+
+.pj-img-div{
     position: absolute;
-}
-
-.pj-heading p{
-    margin-bottom: 95px;
-    font-size: 30px;
-}
-
-.pj-content{
-    display: flex;
-    flex-direction: row;
-}
-
-.pj-desc-p{
-    margin: 0px 0px 40px 0px;
-    font-size: 24px;
-}
-
-.pj-companies{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-
-.pj-companies a{
-    text-align: center;
-    margin: 0px 12px 45px;
-    font-size: 12px;
-}
-
-.pj-companies img{
-    width: 70px;
-    height: 70px;
-    margin: 0px 8px;
-}
-
-.pj-companies p{
-    margin: 0px;
+    top: -100px;
+    left: calc(50% - 75px);
 }
