@@ -1,8 +1,7 @@
 html,
 body {
   margin: 0;
-  font-family: helvetica neue, arial, helvetica, freesans, liberation sans,
-    numbus sans l, sans-serif;
+  font-family: sans-serif;
 }
 
 .main {
@@ -17,7 +16,6 @@ button{
   cursor: pointer;
   border-radius: 4px;
   text-align: center;
-  font-family: Founders Grotesk,sans-serif;
   margin-top: 14px;
 }
 
@@ -38,7 +36,6 @@ button:hover {
 }
 
 .twocl-left h6{
-  font-family: Founders Grotesk,sans-serif;
   font-size: 20px;
   line-height: 1.4;
   font-weight: 700;
@@ -50,7 +47,6 @@ button:hover {
   font-weight: 800;
   line-height: 1.05;
   vertical-align: baseline;
-  font-family: Founders Grotesk,sans-serif;
   margin: 0px 0px 40px;
   letter-spacing: -2px;
 }
@@ -58,8 +54,7 @@ button:hover {
 .twocl-left .desc{
   margin: 0px 0px 40px;
   line-height: 1.5;
-  font-family: Founders Grotesk,sans-serif;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .anchor{

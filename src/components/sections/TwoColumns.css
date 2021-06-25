@@ -7,19 +7,20 @@
 }
 
 .twocolumns_para .col h4{
-    font-family: Founders Grotesk,sans-serif;
     font-size: 16px;
     line-height: 1.4;
     font-weight: 700;
     margin: 0px 0px 8px;
 }
 
-.twocolumns_para p{
-    margin: 0;
-    padding: 0;
-}
-
 .twocolumns_para .col{
     margin-bottom: 30px;
     width: 250px;
+}
+
+.twocolumns_para .col p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+
 }

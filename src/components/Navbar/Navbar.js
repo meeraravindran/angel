@@ -3,7 +3,7 @@ import Hand from "../../assets/hand.svg";
 import { GoSearch } from "react-icons/go";
 import { IconContext } from "react-icons";
 
-const Navbar = (props) => {
+const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar-content">
@@ -12,11 +12,11 @@ const Navbar = (props) => {
             <img alt="Logo" className="nav-icon" src={Hand} />
           </div>
           <div className="nav-links-con">
-            <div>STARTUP JOBS</div>
-            <div>RECRUIT</div>
-            <div>INVEST</div>
-            <div>BLOG</div>
-            <div>MORE</div>
+            <div className="nav-item">STARTUP JOBS</div>
+            <div className="nav-item">RECRUIT</div>
+            <div className="nav-item">INVEST</div>
+            <div className="nav-item">BLOG</div>
+            <div className="nav-item">MORE</div>
           </div>
         </div>
         <div className="nvbc-item-con nav-right">
