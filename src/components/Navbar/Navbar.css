@@ -9,15 +9,23 @@
 
 .navbar-content {
     display: flex;
-    width: 900px;
+    /* width: 900px; */
     flex-direction: row;
     justify-content: space-between;
 }
 
-.nvbc-item-con {
+.nvbc-item-con-left {
     display: flex;
     flex-direction: row;
-    /* padding: 5px; */
+    margin-right: 100px;
+}
+
+.nvbc-item-con-right {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    border-left: 1px solid rgba(0, 0, 0, .08);
+    padding-left: 10px;
 }
 
 .nav-icon-con {
@@ -62,11 +70,6 @@
 
 .link:hover {
     text-decoration: underline;
-}
-
-.nav-right {
-    border-left: 1px solid rgba(0, 0, 0, .08);
-    padding-left: 10px;
 }
 
 .nav-hover-item:hover, .nav-item:hover{

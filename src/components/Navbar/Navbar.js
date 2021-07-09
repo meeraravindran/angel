@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar-content">
-        <div className="nvbc-item-con">
+        <div className="nvbc-item-con-left">
           <div className="nav-icon-con">
             <img alt="Logo" className="nav-icon" src={Hand} />
           </div>
@@ -30,7 +30,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <div className="nvbc-item-con nav-right">
+        <div className="nvbc-item-con-right">
           <div className="nav-icon-con">
             <IconContext.Provider
               value={{ color: "#666", className: "global-class-name" }}

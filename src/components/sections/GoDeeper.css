@@ -1,20 +1,20 @@
-.blogHeader, .blogMain{
+.blog-header, .blog-main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 32px;
 }
 
-.blogHeader h2{
+.blog-header h2{
     margin: 0px 0px 0px 0px;
 }
 
-.blogHeader a{
+.blog-header a{
     text-decoration: none;
     color: #0a6cff;
 }
 
-.blogHeader a :hover{
+.blog-header a :hover{
     text-decoration: underline;
 }
 

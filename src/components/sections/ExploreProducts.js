@@ -2,7 +2,7 @@ import "./ExploreProducts.css";
 import ProductHunt from "../../assets/product_hunt.png";
 const ExploreProducts = () => {
   return (
-    <div className="exploreProducts">
+    <div className="explore-products">
       <div className="ep-image">
         <img src={ProductHunt} />
       </div>

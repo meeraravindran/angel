@@ -23,10 +23,10 @@ const GoDeeper = () => {
     ]
     return (
         <div className="main">
-            <div className="blogHeader"><h2>Go Deeper on startups</h2>
+            <div className="blog-header"><h2>Go Deeper on startups</h2>
                 <a href="/">Read more on the blog</a>
             </div>
-            <div className="blogMain">
+            <div className="blog-main">
                 {
                     data.map((item, index) => {
                         let { picture, heading, alink, content } = item

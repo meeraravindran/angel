@@ -2,7 +2,7 @@ import "./TwoColumns.css"
 
 const TwoColumns = (props) => {
   return (
-    <div className="twocolumns_para">
+    <div className="twocolumns-para">
       <div className="col">
         <h4>{props.h1}</h4>
         <p>
